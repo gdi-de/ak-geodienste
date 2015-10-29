@@ -134,7 +134,7 @@
                     <gmd:identifier>
                         <gmd:MD_Identifier>
                             <gmd:code>
-                                <gco:CharacterString>https://registry.gdi-de.org/id/gdi-bb-lugv/54616d69-403e-32fe-95cb-a41878a692fd</gco:CharacterString>
+                                <gco:CharacterString>https://registry.gdi-de.org/id/de.bb.lugv/54616d69-403e-32fe-95cb-a41878a692fd</gco:CharacterString>
                             </gmd:code>
                         </gmd:MD_Identifier>
                     </gmd:identifier>
