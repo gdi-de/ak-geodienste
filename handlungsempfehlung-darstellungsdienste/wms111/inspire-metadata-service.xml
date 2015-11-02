@@ -219,7 +219,7 @@
                     </srv:connectPoint>
                 </srv:SV_OperationMetadata>
             </srv:containsOperations>
-            <srv:operatesOn xlink:href="https://registry.gdi-de.org/id/bkg/DENWAT01"/>
+            <srv:operatesOn xlink:href="https://registry.gdi-de.org/id/de.rp"/>
         </srv:SV_ServiceIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>

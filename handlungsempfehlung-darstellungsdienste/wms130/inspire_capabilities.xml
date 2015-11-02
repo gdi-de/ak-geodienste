@@ -161,7 +161,7 @@
     <BoundingBox CRS="EPSG:3857" minx="1.21314e+06" miny="6.67453e+06" maxx="1.65921e+06" maxy="7.09476e+06"/>
     <BoundingBox CRS="EPSG:4839" minx="33513.8" miny="26379.6" maxx="297827" maxy="306311"/>
     <AuthorityURL name="lugv-brandenburg">
-      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://registry.gdi-de/id/de.bb.lugv/"/>
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://registry.gdi-de.org/id/de.bb.lugv/"/>
     </AuthorityURL>
     <Style>
        <Name>inspire</Name>

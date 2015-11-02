@@ -127,7 +127,7 @@
             <BoundingBox SRS="EPSG:4258" minx="6.05975" miny="48.9344" maxx="8.51291" maxy="50.9475"/>
             <BoundingBox SRS="EPSG:3857" minx="674568.28433454" miny="6263737.76794311" maxx="947652.806368966" maxy="6612012.32941064"/>
             <AuthorityURL name="SGD-Nord - AG GIS">
-                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://registry.gdi-de/id/de.rp/"/>
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://registry.gdi-de.org/id/de.rp/"/>
             </AuthorityURL>
             <Layer queryable="1">
                 <Name>naturschutzgebiet</Name>
