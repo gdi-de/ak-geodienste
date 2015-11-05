@@ -3,11 +3,10 @@
     <title>INSPIRE Download Service Feed für  Windenergieanlagen in RLP</title>
     <subtitle>INSPIRE Download Service von Struktur- und Genehmigungsdirektion Nord</subtitle>
     <link href="http://www.geoportal.rlp.de/mapbender/php/mod_inspireAtomFeedISOMetadata.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;outputFormat=iso19139&amp;generateFrom=wfs&amp;wfsid=300" rel="describedby" type="application/xml"/>
-    <link href="https://raw.githubusercontent.com/JuergenWeichand/ak-geodienste/master/handlungsempfehlung-downloaddienste/atom/inspire-service-feed.xml" rel="self" type="application/atom+xml" hreflang="de" title="Selbstreferenz"/>
-    <!-- <link href="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=SERVICE&amp;generateFrom=wfs&amp;wfsid=300" rel="self" type="application/atom+xml" hreflang="de" title="Selbstreferenz"/> -->
+    <link href="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=SERVICE&amp;generateFrom=wfs&amp;wfsid=300" rel="self" type="application/atom+xml" hreflang="de" title="Selbstreferenz"/>
     <link href="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=SERVICE&amp;generateFrom=wfs&amp;wfsid=300&amp;layerid=&amp;getopensearch=true" rel="search" type="application/opensearchdescription+xml" title="Open Search Beschreibung des INSPIRE Download Dienstes für den Datensatz Windenergieanlagen in RLP"/>
     <link href="http://map1.sgdnord.rlp.de/service_rok_open/mod_wfs/wfs_getmap.php?mapfile=windenergieanlagen_am_rlp&amp;&amp;request=GetCapabilities&amp;VERSION=1.1.0&amp;SERVICE=WFS" rel="related" type="application/xml" title="Service implementing Direct Access operations"/>
-    <id>https://raw.githubusercontent.com/JuergenWeichand/ak-geodienste/master/handlungsempfehlung-downloaddienste/atom/inspire-service-feed.xml</id>
+    <id>http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=SERVICE&amp;generateFrom=wfs&amp;wfsid=300</id>
     <rights>none</rights>
     <updated>2015-07-09T08:44:19+02:00</updated>
     <author>
@@ -18,18 +17,13 @@
         <title>Feed Entry fuer: Windenergieanlagen in RLP - generiert über WFS GetFeature Aufrufe</title>
         <inspire_dls:spatial_dataset_identifier_code>3e56db13eabdeb36102e988950321375</inspire_dls:spatial_dataset_identifier_code>
         <inspire_dls:spatial_dataset_identifier_namespace>http://sgdnord.rlp.de</inspire_dls:spatial_dataset_identifier_namespace>
-        <link href="http://www.geoportal.rlp.de/mapbender/php/mod_dataISOMetadata.php?outputFormat=iso19139&amp;id=3e56db13-eabd-eb36-102e-988950321375" rel="describedby" type="application/xml"/>
-        <!--
-            <link rel="alternate" href="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300" type="application/atom+xml" hreflang="de" title="Feed für den pre-defined Datensatz Windenergieanlagen in RLP"/>
-            <id>http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300</id>
-        -->
-        https://github.com/JuergenWeichand/ak-geodienste/blob/master/handlungsempfehlung-downloaddienste/atom/inspire-dataset-feed.xml
-            <link rel="alternate" href="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300" type="application/atom+xml" hreflang="de" title="Feed für den pre-defined Datensatz Windenergieanlagen in RLP"/>
-            <id>http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300</id>
+        <link rel="describedby" href="http://www.geoportal.rlp.de/mapbender/php/mod_dataISOMetadata.php?outputFormat=iso19139&amp;id=3e56db13-eabd-eb36-102e-988950321375" type="application/xml"/>
+        <link rel="alternate" href="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300" type="application/atom+xml" hreflang="de" title="Feed für den pre-defined Datensatz Windenergieanlagen in RLP"/>
+        <id>http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300</id>
         <rights>none</rights>
         <updated>2015-07-09T08:44:19+02:00</updated>
         <summary>Nähere Beschreibung des Feedinhaltes: Windenergieanlagen beantragt, genehmigt oder bereits am Netz befindlich in RLP</summary>
         <georss:polygon>48.945198059082 6.17739963531494 50.9453010559082 6.17739963531494 50.9453010559082 8.48990058898926 48.945198059082 8.48990058898926 48.945198059082 6.17739963531494</georss:polygon>
-        <category term="http://www.opengis.net/def/crs/EPSG/0" label="EPSG/0/0"/>
+        <category term="http://www.opengis.net/def/crs/EPSG/25832" label="EPSG/0/25832"/>
     </entry>
 </feed>
